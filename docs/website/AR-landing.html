@@ -112,5 +112,20 @@ layout: default
 					link.remove();
 				}
 			</script>
+
+
+			<!-- INTERACTIVE GAME/CLASS-BASED | IN PROGRESS -->
+			<button type="button" onclick="openTab('pages/mini-game/ar-game.html')">Mini AR Game</button>
+			<script>
+				function openTab(url) {
+					const link = document.createElement('a');
+					link.href = url;
+					link.target = '_blank';
+					document.body.appendChild(link);
+					link.click();
+					link.remove();
+				}
+			</script>	
+
 		</center>
 	</body>
