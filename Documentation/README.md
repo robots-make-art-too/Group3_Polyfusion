@@ -1,7 +1,7 @@
 # Documentation
 
 ##Roles:
-  ###Discord Names:
+###Discord Names:
     Lordemman - Everything
     Blanekilla - Lead Programmer
     nomino - Assistant 3d modeler/programmer
