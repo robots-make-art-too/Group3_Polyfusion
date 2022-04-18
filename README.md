@@ -1,6 +1,6 @@
 # Group3_Polyfusion
  
-Project Description - Our plan si 
+Project Description - Our plan is to make an AR museum of three unorthodox looking sculptures
 
  Members and Roles
 
