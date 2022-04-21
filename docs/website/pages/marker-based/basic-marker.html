@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
-		<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+		<script src="https://rawcdn.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
 	</head>
 
 	<body style='margin : 0px; overflow: hidden;'>
@@ -14,40 +15,18 @@
 		renderer="logarithmicDepthBuffer: true;"
 		vr-mode-ui="enabled: false"
 		id="scene">
-			<a-assets>
-				<a-asset-item id="Model_1" src="assets/models/Model_1.glb"></a-asset-item>
-				<a-asset-item id="Model_2" src="assets/models/Model_2.glb"></a-asset-item>
-				<a-asset-item id="Model_3" src="assets/models/Model_3.glb"></a-asset-item>
-			</a-assets>
-		
+			
 			<a-marker id="hiro-1" preset="hiro">
-				<a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
-				<a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
-				<a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
-				<a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+				<a-cylinder position="0 0.75 0" radius="1" height="2" color="#7BC8A4"></a-cylinder>
 			</a-marker>
 			
 			<a-marker id="kanji-1" preset="kanji">
 				<!-- <a-sky color="#ECECEC"></a-sky> -->
-				<a-sphere position='1 1.5 0' color='green';></a-sphere>
-			</a-marker>
-
-			<a-marker id="customMarker-1" type="pattern" url="Marker_1.patt">
-				<a-entity id="model-1-gltf" position="-1 0.5 0" scale="0.25 0.25 0.25" rotation="-90 0 0" gltf-model="#model-1"></a-entity>
-			</a-marker>
-
-			<a-marker id="customMarker-2" type="pattern" url="Marker_2.patt">
-				<a-entity id="model-2-gltf" position="-1 0.5 0" scale="0.25 0.25 0.25" rotation="-90 0 0" gltf-model="#model-2"></a-entity>
-			</a-marker>
-			
-			<a-marker id="customMarker-3" type="pattern" url="Marker_3.patt">
-				<a-entity id="model-3-gltf" position="-1 0.5 0" scale="0.25 0.25 0.25" rotation="-90 0 0" gltf-model="#model-3"></a-entity>
-			</a-marker>
+				<a-cylinder position="0 0.75 0" radius="1" height="2" color="#7BC8A4"></a-cylinder>
+			</a-marker> 
 
 			<a-entity camera></a-entity>
 
 		</a-scene>
-
-
 	</body>
 </htlm>
