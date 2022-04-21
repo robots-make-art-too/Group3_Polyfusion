@@ -19,6 +19,11 @@ permalink: website/pages/marker-based/ar-custom-pattern.html
 		renderer="logarithmicDepthBuffer: true;"
 		vr-mode-ui="enabled: false"
 		id="scene">
+			
+			<a-assets>
+				<a-asset-item id="bowser" src="bowser.glb"></a-asset-item>
+				<a-asset-item id="example" src="example_model.glb"></a-asset-item>
+			</a-assets>
 		
 			<a-marker id="hiro-1" preset="hiro">
 				<a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
@@ -33,12 +38,12 @@ permalink: website/pages/marker-based/ar-custom-pattern.html
 			</a-marker>
 			
 			<a-marker id="custom-1" type="pattern" url="../../assets/markers/Germ.patt">
-				<a-sphere position='-1.5 0.5 0' color='blue';></a-sphere>
+				<a-entity id="example-gltf" position="0 0.5 0" rotation="0 180 0" scale="10 10 10" gltf-model="#example"></a-entity>
 			</a-marker>
 			<a-marker id="custom-1" type="pattern" url="../../assets/markers/Octi.patt">
-				<a-sphere position='-1.5 0.5 0' color='blue';></a-sphere>
+				<a-entity id="bowser-gltf" position="0.5 0.5 0" scale="0.05 0.05 0.05" gltf-model="#bowser"></a-entity>
 			</a-marker>
-			<a-marker id="custom-1" type="pattern" url="../../assets/markers/Octi.patt">
+			<a-marker id="custom-1" type="pattern" url="../../assets/markers/Poly.patt">
 				<a-sphere position='-1.5 0.5 0' color='blue';></a-sphere>
 			</a-marker>
 
