@@ -21,8 +21,9 @@ permalink: website/pages/marker-based/ar-custom-pattern.html
 		id="scene">
 			
 			<a-assets>
-				<a-asset-item id="bowser" src="bowser.glb"></a-asset-item>
-				<a-asset-item id="example" src="example_model.glb"></a-asset-item>
+				<a-asset-item id="model1" src="../../assets/models/1.glb"></a-asset-item>
+				<a-asset-item id="model2" src="../../assets/models/2.glb"></a-asset-item>
+				<a-asset-item id="model3" src="../../assets/models/EECS1720.glb"></a-asset-item>
 			</a-assets>
 		
 			<a-marker id="hiro-1" preset="hiro">
@@ -38,13 +39,13 @@ permalink: website/pages/marker-based/ar-custom-pattern.html
 			</a-marker>
 			
 			<a-marker id="custom-1" type="pattern" url="../../assets/markers/Germ.patt">
-				<a-entity id="example-gltf" position="0 0.5 0" rotation="0 180 0" scale="10 10 10" gltf-model="#example"></a-entity>
+				<a-entity id="modelr1-gltf" position="0 0 0" gltf-model="#model1"></a-entity>
 			</a-marker>
-			<a-marker id="custom-1" type="pattern" url="../../assets/markers/Octi.patt">
-				<a-entity id="bowser-gltf" position="0.5 0.5 0" scale="0.05 0.05 0.05" gltf-model="#bowser"></a-entity>
+			<a-marker id="custom-2" type="pattern" url="../../assets/markers/Octi.patt">
+				<a-entity id="model2-gltf" position="0 0 0" gltf-model="#model2"></a-entity>
 			</a-marker>
-			<a-marker id="custom-1" type="pattern" url="../../assets/markers/Poly.patt">
-				<a-sphere position='-1.5 0.5 0' color='blue';></a-sphere>
+			<a-marker id="custom-3" type="pattern" url="../../assets/markers/Poly.patt">
+				<a-entity id="model3-gltf" position="0 0 0" gltf-model="#model3"></a-entity>
 			</a-marker>
 
 			<a-entity camera></a-entity>
