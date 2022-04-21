@@ -22,21 +22,21 @@ permalink: marker-based/ar-custom-pattern.html
 		id="scene">
 			
 			<a-assets>
-				<a-asset-item id="sculp1" src="assets/models/1.glb"></a-asset-item>
-				<a-asset-item id="sculp2" src="assets/models/2.glb"></a-asset-item>
-				<a-asset-item id="sculp3" src="assets/models/EECS1720.gltf"></a-asset-item>
+				<a-asset-item id="Octi" src="assets/models/1.glb"></a-asset-item>
+				<a-asset-item id="Poly" src="assets/models/2.glb"></a-asset-item>
+				<a-asset-item id="Germ" src="assets/models/EECS1720.gltf"></a-asset-item>
 			</a-assets>
 
-			<a-marker id="customMarker-1" type="pattern" url="../../assets/markers/spiral_marker.patt">
-				<a-entity id="sculp1-gltf" position="-1 0.5 0" scale="0.25 0.25 0.25" rotation="-90 0 0" gltf-model="#sculp1"></a-entity>
+			<a-marker id="customMarker-1" type="pattern" url="../../assets/markers/Octi.patt">
+				<a-entity id="Octi-gltf" position="-1 0.5 0" scale="0.25 0.25 0.25" rotation="-90 0 0" gltf-model="#Octi"></a-entity>
 			</a-marker>
 
-			<a-marker id="customMarker-2" type="pattern" url="../../assets/markers/spi_poly.patt">
-				<a-entity id="sculp2-gltf" position="-1 0.5 0" scale="0.25 0.25 0.25" rotation="-90 0 0" gltf-model="#sculp2"></a-entity>
+			<a-marker id="customMarker-2" type="pattern" url="../../assets/markers/Poly.patt">
+				<a-entity id="Poly-gltf" position="-1 0.5 0" scale="0.25 0.25 0.25" rotation="-90 0 0" gltf-model="#Poly"></a-entity>
 			</a-marker>
 			
-			<a-marker id="customMarker-3" type="pattern" url="../../assets/markers/pattern-Polyfusion.patt">
-				<a-entity id="sculp3-gltf" position="-1 0.5 0" scale="0.25 0.25 0.25" rotation="-90 0 0" gltf-model="#sculp3"></a-entity>
+			<a-marker id="customMarker-3" type="pattern" url="../../assets/markers/Germ.patt">
+				<a-entity id="Germ-gltf" position="-1 0.5 0" scale="0.25 0.25 0.25" rotation="-90 0 0" gltf-model="#Germ"></a-entity>
 			</a-marker>
 
 			<a-entity camera></a-entity>
