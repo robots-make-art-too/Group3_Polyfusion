@@ -22,30 +22,21 @@ permalink: marker-based/ar-custom-pattern.html
 		id="scene">
 			
 			<a-assets>
-				<a-asset-item id="Model_1" src="assets/models/1.glb"></a-asset-item>
-				<a-asset-item id="Model_2" src="assets/models/2.glb"></a-asset-item>
-				<a-asset-item id="Model_3" src="assets/models/EECS1720.gltf"></a-asset-item>
+				<a-asset-item id="sculp1" src="assets/models/1.glb"></a-asset-item>
+				<a-asset-item id="sculp2" src="assets/models/2.glb"></a-asset-item>
+				<a-asset-item id="sculp3" src="assets/models/EECS1720.gltf"></a-asset-item>
 			</a-assets>
-		
-			<a-marker id="defalt-1" preset="hiro">
-				<a-sphere position='-1.5 0.5 0' color='red';></a-sphere>
-			</a-marker>
-			
-			<a-marker id="defalt-2" preset="kanji">
-				<!-- <a-sky color="#ECECEC"></a-sky> -->
-				<a-sphere position='1 1.5 0' color='green';></a-sphere>
-			</a-marker>
 
 			<a-marker id="customMarker-1" type="pattern" url="../../assets/markers/spiral_marker.patt">
-				<a-entity id="model-1-gltf" position="-1 0.5 0" scale="0.25 0.25 0.25" rotation="-90 0 0" gltf-model="#1.gltf"></a-entity>
+				<a-entity id="sculp1-gltf" position="-1 0.5 0" scale="0.25 0.25 0.25" rotation="-90 0 0" gltf-model="#sculp1"></a-entity>
 			</a-marker>
 
 			<a-marker id="customMarker-2" type="pattern" url="../../assets/markers/spi_poly.patt">
-				<a-entity id="model-2-gltf" position="-1 0.5 0" scale="0.25 0.25 0.25" rotation="-90 0 0" gltf-model="#2.gltf"></a-entity>
+				<a-entity id="sculp2-gltf" position="-1 0.5 0" scale="0.25 0.25 0.25" rotation="-90 0 0" gltf-model="#sculp2"></a-entity>
 			</a-marker>
 			
 			<a-marker id="customMarker-3" type="pattern" url="../../assets/markers/pattern-Polyfusion.patt">
-				<a-entity id="model-3-gltf" position="-1 0.5 0" scale="0.25 0.25 0.25" rotation="-90 0 0" gltf-model="#EECS1720.gltf"></a-entity>
+				<a-entity id="sculp3-gltf" position="-1 0.5 0" scale="0.25 0.25 0.25" rotation="-90 0 0" gltf-model="#sculp3"></a-entity>
 			</a-marker>
 
 			<a-entity camera></a-entity>
