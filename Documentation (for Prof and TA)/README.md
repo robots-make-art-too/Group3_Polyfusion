@@ -9,6 +9,7 @@
 #### Lordemman - Programmed AR, Created website, File/Roll Manager/Organizer
 #### Blanekilla - Created Barcodes, Markers and GitHub Repo Admin
 
+
 All Group members have confirmed availability and ways to contact them.
 
 We decided on who has write access and who doesn't.
