@@ -9,6 +9,13 @@ nomino -> Assistant 3d modeler/programmer |
 wei -> Lead 3D modeler/texturer | 
 selma -> Tester
 
+
+wei - Created and Textured Model 1 and Model 2
+nomino - Designed Models and Created Model 3
+selma - Writing model descriptions and meaning
+Lordemman - Programmed AR, Created website, File/Roll Manager/Organizer
+Blanekilla - Created Barcodes, Markers and GitHub Repo Admin
+
 All Group members have confirmed availability and ways to contact them.
 
 We decided on who has write access and who doesn't.
