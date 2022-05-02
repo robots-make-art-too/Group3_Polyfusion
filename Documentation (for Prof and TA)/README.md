@@ -3,13 +3,6 @@
 ## Group Name - Polyfusion
 
 ### Roles:
-Lordemman -> All Departments | 
-Blanekilla -> Lead Programmer | 
-nomino -> Assistant 3d modeler/programmer | 
-wei -> Lead 3D modeler/texturer | 
-selma -> Tester
-
-
 #### wei - Created and Textured Model 1 and Model 2
 #### nomino - Designed Models and Created Model 3
 #### selma - Writing model descriptions and meaning
